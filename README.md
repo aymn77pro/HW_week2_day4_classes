@@ -7,20 +7,20 @@ The Home Work has one part to be delievered before 9AM:
 ### Create a simple system for College. Create classes for Course, Professor and Student. 
 Course can have only one professor and many student
 
-### Course 
-Attributes: CourseName, number_of_lectures, students, professor.
-Methods:
-int numberOfStudents()
-boolean assignProfessor(Professor p) // assign professor to course. Course can have only one professor.
-string professorName() // return professor full name
-boolean enroll(Student s) // assign student to this course. Student can’t be enrolled to a course if the course is full.
-string courseInfo() // return the course name number of lectures professor and students
-
-### Professor 
-Attributes: firstName, lastName, telephone,  courses. 
-Methods: String fullName() // return “firstName lastName”
-
-### Student
-Attributes: firstName, lastName, courses.
-Methods: String fullName() // return “firstName lastName”
+### Course
+Attributes: CourseName, number_of_lectures, students, professor.<br />
+Methods:<br />
+int numberOfStudents()<br />
+boolean assignProfessor(Professor p) // assign professor to course. Course can have only one professor.<br />
+string professorName() // return professor full name<br />
+boolean enroll(Student s) // assign student to this course. Student can’t be enrolled to a course if the course is full.<br />
+string courseInfo() // return the course name number of lectures professor and students<br />
+<br />
+### Professor <br />
+Attributes: firstName, lastName, telephone,  courses. <br />
+Methods: String fullName() // return “firstName lastName”<br />
+<br />
+### Student<br />
+Attributes: firstName, lastName, courses.<br />
+Methods: String fullName() // return “firstName lastName”<br />
 

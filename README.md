@@ -4,8 +4,7 @@ The Home Work has one part to be delievered before 9AM:
 
 ----
 ## Part I
-Create a simple system for College. Create classes for Course, Professor and Student.<br /> 
-Course can have only one professor and many student
+Create a simple system for College. Create classes for Course, Professor and Student. Course can have only one professor and students
 
 ### Course
 Attributes: CourseName, number_of_lectures, students, professor.<br />

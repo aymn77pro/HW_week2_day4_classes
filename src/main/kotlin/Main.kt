@@ -14,9 +14,11 @@ var cours3=cours("pc",15,149,150)
         cours1.professor=prof1.FullPFN()
         println(cours1.IfAssint()).toString()
         println(cours1.CoursInformiton()).toString()
+        println("-----------------------------------------------------")
         cours2.professor=prof2.FullPFN()
         println(cours2.IfAssint()).toString()
         println(cours2.CoursInformiton()).toString()
+        println("-----------------------------------------------------")
         cours3.professor=prof3.FullPFN()
         println(cours3.IfAssint()).toString()
         println(cours3.CoursInformiton()).toString()
@@ -48,7 +50,7 @@ var cours3=cours("pc",15,149,150)
             } else {
                 println("student joined the cours")
             }
-        return ("$coursName $numOfLac $professor $numStudent")
+        return ("name of class is $coursName has number of lacter $numOfLac name of proessor is $professor number of student in the class $student of $numStudent")
         }
 
 
